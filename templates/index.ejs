@@ -24,7 +24,7 @@
 <header class="mdui-toolbar mdui-color-theme mdui-appbar-fixed mdui-appbar-scroll-toolbar-hide" style="z-index: 1000">
     <a href="javascript:;" mdui-drawer="{target: '#left-drawer',overlay:true}" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">menu</i></a>
     <span class="mdui-typo-title"><%= themeConfig.siteName %></span>
-    <div class="mdui-toolbar-spacer"></div>
+    <div class="mdui-toolbar-space"></div>
 <!--    <a href="javascript:history.go(0);" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
     <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
 </header>
@@ -56,7 +56,7 @@
     <figure id="centerbg" class="centerbg" style="">
         <div class="focusinfo">
             <div class="header-tou">
-                <a href="<%= menus.link%>>">
+                <a href="<%= menus.link%>">
                     <img src="/images/avatar.png">
                 </a>
             </div>
@@ -66,57 +66,57 @@
             <div class="top-social">
                 <% if(site.customConfig['qq']){%>
                 <li>
-                    <a href="<%= site.customConfig['qq']%>" target="_blank" title="Initiate chat ?">
+                    <a href="<%= site.customConfig['qq']%>" target="_blank" rel="noopener noreferrer" title="Initiate chat ?">
                         <div class="www" id="qq"></div>
                     </a>
                 </li>
                 <%}%>
                 <% if(site.customConfig['bilibili']){%>
                 <li>
-                    <a href="<%= site.customConfig['bilibili']%>" target="_blank" class="social-bili" title="bilibili">
+                    <a href="<%= site.customConfig['bilibili']%>" target="_blank" rel="noopener noreferrer" class="social-bili" title="bilibili">
                         <div class="www" id="bilibili"></div>
                     </a>
                 </li>
                 <%}%>
                 <% if(site.customConfig['weibo']){%>
                 <li>
-                    <a href="<%= site.customConfig['weibo']%>" target="_blank" class="social-bili" title="weibo">
+                    <a href="<%= site.customConfig['weibo']%>" target="_blank" rel="noopener noreferrer" class="social-bili" title="weibo">
                         <div class="www" id="weibo"></div>
                     </a>
                 </li>
                 <%}%>
                  <% if(site.customConfig['zhihu']){%>
                 <li>
-                    <a href="<%= site.customConfig['zhihu']%>" target="_blank" class="social-bili" title="zhihu">
+                    <a href="<%= site.customConfig['zhihu']%>" target="_blank" rel="noopener noreferrer" class="social-bili" title="zhihu">
                         <div class="www" id="zhihu"></div>
                     </a>
                 </li>
                 <%}%>
                 <% if(site.customConfig['steam']){%>
                 <li>
-                    <a href="<%= site.customConfig['steam']%>" target="_blank" class="social-wangyiyun" title="Twitter">
+                    <a href="<%= site.customConfig['steam']%>" target="_blank" rel="noopener noreferrer" class="social-wangyiyun" title="Steam">
                         <div class="www" id="steam"></div>
                     </a>
                 </li>
                 <%}%>
                 <% if(site.customConfig['github']){%>
                 <li>
-                    <a href="<%= site.customConfig['github']%>" target="_blank" class="social-wangyiyun" title="Twitter">
+                    <a href="<%= site.customConfig['github']%>" target="_blank" rel="noopener noreferrer" class="social-wangyiyun" title="GitHub">
                         <div class="www" id="github"></div>
                     </a>
                 </li>
                 <%}%>
                 <% if(site.customConfig['wangyiyun']){%>
                 <li>
-                    <a href="<%= site.customConfig['wangyiyun']%>" target="_blank" class="social-wangyiyun" title="Twitter">
+                    <a href="<%= site.customConfig['wangyiyun']%>" target="_blank" rel="noopener noreferrer" class="social-wangyiyun" title="网易云音乐">
                         <div class="www" id="wangyiyun"></div>
                     </a>
                 </li>
                 <%}%>
                 <% if(site.customConfig['qidian']){%>
                  <li>
-                     <a href="<%= site.customConfig['qidian']%>" target="_blank" class="social-wangyiyun" title="Twitter">
-                         <div class="www" id="qidian"></div>
+                     <a href="<%= site.customConfig['qidian']%>" target="_blank" rel="noopener noreferrer" class="social-wangyiyun" title="起点中文网">
+                        <div class="www" id="qidian"></div>
                      </a>
                  </li>
                 <%}%>
